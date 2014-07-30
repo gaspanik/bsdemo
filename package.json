@@ -2,7 +2,7 @@
   "name": "bsdemo",
   "version": "0.0.1",
   "description": "a browser-sync demo",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "postinstall": "browser-sync init && mv bs-config.js bs-config.origin.js && cp bs-config.sample.js bs-config.js",
     "start": "browser-sync start --config bs-config.js",
